@@ -1,0 +1,174 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MuseoSansRounded-300-webfont;
+    src: url(../fonts/museosansrounded_300/MuseoSansRounded-300-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-100-webfont;
+    src: url(../fonts/museosansrounded_100/MuseoSansRounded-100-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-700-webfont;
+    src: url(../fonts/museosansrounded_700/MuseoSansRounded-700-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-500-webfont;
+    src: url(../fonts/museosansrounded_500/MuseoSansRounded-500-webfont.ttf);
+}
+
+body {
+  font-family: MuseoSansRounded-300-webfont;
+  background-color: #f3f3f3;
+}
+.logo {
+  padding: 22px 0;
+}
+header button {
+  float: right;
+}
+header .btn-danger {
+  font-family: MuseoSansRounded-300-webfont;
+  padding: 7px 15px;
+}
+header .btn {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 22px 0;
+}
+main {
+  padding-bottom: 50px;
+}
+.order {
+  text-align: center;
+  padding: 30px;
+}
+.order h3 {
+  font-weight: bold;
+  margin: 0;
+}
+.time_order {
+  font-family: MuseoSansRounded-500-webfont;
+  background-color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-bottom: 10px;
+}
+.time_order p {
+  color: #666666;
+  font-size: 18px;
+  margin: 0;
+}
+.time_order h1 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.time_order span {
+  color: #999999;
+  font-size: 12px;
+}
+.sum_order {
+  font-family: MuseoSansRounded-500-webfont;
+  background-color: white;
+  padding: 15px 15px;
+}
+.sum_order span {
+  color: #999999;
+  font-family: MuseoSansRounded-500-webfont;
+  font-size: 16px;
+}
+.sum_order p {
+  color: #666666;
+  font-family: MuseoSansRounded-700-webfont;
+  font-size: 16px;
+}
+.block1 {
+  float: left;
+}
+.block2 {
+  float: right;
+  text-align: right;
+}
+.address {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 0;
+  border-bottom: 1px solid #999999;
+  color: #333333;
+}
+.list {
+  border-bottom: 1px solid #999999;
+  padding-top: 15px;
+}
+.total {
+  text-align: center;
+  padding: 15px 0;
+}
+.call {
+  background-image: url(../img/call.png);
+  background-repeat: no-repeat;
+  background-position: left 115px top 15px;
+  text-align: center;
+  color: #666666;
+  font-family: MuseoSansRounded-700-webfont;
+  padding: 30px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.call span {
+  color: #45ccdc;
+}
+.line {
+  border-bottom: 1px solid #999999;
+  width: 150px;
+  margin: 0 auto;
+}
+.bonus {
+  text-align: center;
+  padding: 30px 0;
+}
+.bonus p {
+  color: #333333;
+  font-family: MuseoSansRounded-700-webfont;
+  font-size: 18px;
+}
+.bonus span {
+  color: #999999;
+  font-family: MuseoSansRounded-500-webfont;
+  font-size: 13px;
+}
+.input {
+  font-family: MuseoSansRounded-300-webfont;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.btn-primary {
+  background-color: #4dccdb;
+  border-color: #4dccdb;
+  color: white;
+}
+.btn {
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: MuseoSansRounded-500-webfont;
+  padding: 7px 0;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+.form-control {
+  font-size: 12px;
+  text-align: center;
+  color: #999999;
+}
